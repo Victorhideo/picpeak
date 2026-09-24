@@ -5,6 +5,16 @@ All notable changes to PicPeak will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.142.1-beta.0](https://github.com/PicPeak/picpeak/compare/v3.142.0-beta.0...v3.142.1-beta.0) (2026-09-24)
+
+
+### Bug Fixes
+
+* **backup:** approvable internal S3 endpoints, a real connection test and honest backup status ([#1642](https://github.com/PicPeak/picpeak/issues/1642)) ([4634f09](https://github.com/PicPeak/picpeak/commit/4634f09379ba6b0cbe3b04acb3dbde82b0a28e3e))
+* **backup:** ask for the rsync SSH key file path, not the key ([#1644](https://github.com/PicPeak/picpeak/issues/1644)) ([dc7d5e6](https://github.com/PicPeak/picpeak/commit/dc7d5e616e77de17071eea0ebaf3a93d82c06db8))
+* **backup:** stop the form from moving a cron schedule, and mark the selected destination ([#1643](https://github.com/PicPeak/picpeak/issues/1643)) ([d2efcd1](https://github.com/PicPeak/picpeak/commit/d2efcd150106e7b051dbb8eb3e2b9938e0e85006))
+* **images:** decide a resize is unneeded from the delivered orientation ([#1645](https://github.com/PicPeak/picpeak/issues/1645)) ([2c3f1b5](https://github.com/PicPeak/picpeak/commit/2c3f1b5c57d00c5283ccbad5bd3118274e14bb8a))
+
 ## [3.142.0-beta.0](https://github.com/PicPeak/picpeak/compare/v3.141.2-beta.0...v3.142.0-beta.0) (2026-09-24)
 
 
